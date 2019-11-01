@@ -33,4 +33,7 @@ class Singleton: NSObject
    func addNewCustomer(First_Name : String, Last_Name : String, email : String)
           
           
-      
+      {
+              let C = customerDictionary.count + 1
+              
+            
