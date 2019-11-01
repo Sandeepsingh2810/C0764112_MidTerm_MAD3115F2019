@@ -12,18 +12,18 @@ import Foundation
 class Customer
     
 {
-    var customerID : Int?
+    var cxID : Int?
     
-    var customerFName: String?
+    var cxFName: String?
     
-    var customerLName : String?
+    var cxLName : String?
     
     var fullName : String
     {
         
-        return customerFName! + " " + customerLName!
+        return cxFName! + " " + cxLName!
     }
-      var customerEmail: String?
+      var cxEmail: String?
     
     var totalBillAmount : Float?
     
@@ -32,13 +32,13 @@ class Customer
             
             String,customerLName:String,customerEmail:String)
         {
-            self.customerID=customerID
+            self.cxID=customerID
             
-            self.customerFName=customerFName
+            self.cxFName=customerFName
             
-            self.customerLName=customerLName
+            self.cxLName=customerLName
             
-            self.customerEmail=customerEmail
+            self.cxEmail=customerEmail
             
         }
     }
