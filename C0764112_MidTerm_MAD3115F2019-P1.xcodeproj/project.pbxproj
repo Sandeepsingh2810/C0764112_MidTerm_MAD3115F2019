@@ -17,6 +17,7 @@
 		55B9FA33236CA296001BF783 /* CustomerViewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B9FA32236CA296001BF783 /* CustomerViewListViewController.swift */; };
 		55B9FA35236CA31C001BF783 /* Users.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55B9FA34236CA31C001BF783 /* Users.plist */; };
 		55B9FA37236CA9C2001BF783 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B9FA36236CA9C2001BF783 /* LoginViewController.swift */; };
+		55B9FA39236CCF75001BF783 /* AddNewCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B9FA38236CCF75001BF783 /* AddNewCustomerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		55B9FA32236CA296001BF783 /* CustomerViewListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewListViewController.swift; sourceTree = "<group>"; };
 		55B9FA34236CA31C001BF783 /* Users.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Users.plist; sourceTree = "<group>"; };
 		55B9FA36236CA9C2001BF783 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		55B9FA38236CCF75001BF783 /* AddNewCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCustomerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				55B9FA32236CA296001BF783 /* CustomerViewListViewController.swift */,
 				55B9FA34236CA31C001BF783 /* Users.plist */,
 				55B9FA36236CA9C2001BF783 /* LoginViewController.swift */,
+				55B9FA38236CCF75001BF783 /* AddNewCustomerViewController.swift */,
 			);
 			path = "C0764112_MidTerm_MAD3115F2019-P1";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B9FA39236CCF75001BF783 /* AddNewCustomerViewController.swift in Sources */,
 				55B9FA37236CA9C2001BF783 /* LoginViewController.swift in Sources */,
 				55B9FA31236CA1AF001BF783 /* Customer.swift in Sources */,
 				55B9FA2F236CA161001BF783 /* Singleton.swift in Sources */,
