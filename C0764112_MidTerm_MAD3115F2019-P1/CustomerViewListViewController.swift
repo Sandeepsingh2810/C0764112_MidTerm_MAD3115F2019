@@ -61,3 +61,31 @@ class CustomerListViewController: UIViewController,UITableViewDelegate,UITableVi
     @IBOutlet weak var customerListTable: UITableView!
     
 
+private func addLogoutButton()
+    
+    
+{
+    
+    let btnLogout=UIBarButtonItem(title: "Logout", style: .done, target: self, action: #selector(CustomerListViewController.logout(sender:)))
+    
+   
+    
+    navigationItem.leftBarButtonItem=btnLogout
+    
+}
+    
+
+@objc
+func logout(sender: UIBarButtonItem)
+    
+    
+{
+    
+    print("logout")
+    
+    navigationController?.popViewController(animated: true)
+    
+    
+}
+
+   
