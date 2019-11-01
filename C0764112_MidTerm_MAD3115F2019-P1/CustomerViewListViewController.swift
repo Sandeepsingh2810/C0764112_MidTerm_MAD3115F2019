@@ -74,7 +74,13 @@ private func addLogoutButton()
     
 }
     
-
+//    private func addCustomerButton()
+//          {
+//           let btnLogout=UIBarButtonItem(title: "ADD", style: .done, target: self, action: #selector(CustomerListViewController.addCustomer(sender:)))
+//
+//              navigationItem.rightBarButtonItem=btnLogout
+//          }
+    
 @objc
 func logout(sender: UIBarButtonItem)
     
@@ -100,6 +106,11 @@ func logout(sender: UIBarButtonItem)
            
            
               addLogoutButton()
+        
+        
+        
+        
+        
            // Do any additional setup after loading the view.
        }
        
