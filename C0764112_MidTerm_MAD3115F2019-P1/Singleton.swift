@@ -30,4 +30,7 @@ class Singleton: NSObject
         return obj
     }
     
-   
+   func addNewCustomer(First_Name : String, Last_Name : String, email : String)
+          
+          
+      
