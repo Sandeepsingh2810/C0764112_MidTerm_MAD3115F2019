@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Login View Controller-->
+        <!--Login-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="C0764112_MidTerm_MAD3115F2019_P1" customModuleProvider="target" sceneMemberID="viewController">
@@ -56,8 +56,9 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imO-hU-3N9">
-                                <rect key="frame" x="184" y="563" width="38" height="30"/>
+                                <rect key="frame" x="170" y="565" width="74" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="btnLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ttu-5d-SbC"/>
@@ -67,7 +68,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="PrA-Hi-kD9"/>
+                    <navigationItem key="navigationItem" title="Login" id="PrA-Hi-kD9"/>
                     <connections>
                         <outlet property="btnLogin" destination="imO-hU-3N9" id="hxE-OL-jg3"/>
                         <outlet property="btnRememberMe" destination="gTl-w8-ds6" id="9DC-D9-yEg"/>
