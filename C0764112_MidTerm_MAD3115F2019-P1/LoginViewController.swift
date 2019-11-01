@@ -119,10 +119,15 @@ class LoginViewController: UIViewController
                     for u in usersList
                     {
                          let user = u as! NSDictionary
-                        let uname = user["username"]! as! String
-                        let pwd = user["password"]! as! String
-                        if uname==txtusername.text! && pwd==txtpswd.text!
+                        
+                        let Username = user["username"]! as! String
+                        
+                        let Password = user["password"]! as! String
+                        
+                        if Username==txtusername.text! && Password==txtpswd.text!
+                            
                         {
+                            
                             return true
                         }
                     }
