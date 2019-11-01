@@ -27,4 +27,19 @@ class Customer
     
     var totalBillAmount : Float?
     
-    
+    init(customerID:Int,customerFName:
+            
+            
+            String,customerLName:String,customerEmail:String)
+        {
+            self.customerID=customerID
+            
+            self.customerFName=customerFName
+            
+            self.customerLName=customerLName
+            
+            self.customerEmail=customerEmail
+            
+        }
+    }
+
