@@ -89,7 +89,7 @@ class LoginViewController: UIViewController
                         else
         {
                            
-            let alert = UIAlertController(title: "Wrong Username Or Password", message: "change username or password", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Wrong Username or Password", message: "Re-enter Username or password", preferredStyle: .alert)
 
                             alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: nil))
             
@@ -102,7 +102,7 @@ class LoginViewController: UIViewController
             
                             self.present(alert, animated: true)
             
-                            print("invalid username or password")
+                            print(" Wrong username or password")
             
             
                         }
